@@ -23,7 +23,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style1">密码</td>
+                    <td class="auto-style1">密码1</td>
                     <td class="auto-style1">
                         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
                     </td>
