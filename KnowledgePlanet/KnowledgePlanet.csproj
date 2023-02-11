@@ -75,6 +75,7 @@
     <Content Include="HtmlPage.html" />
     <Content Include="images\top.png" />
     <Content Include="images\bottom.jpg" />
+    <Content Include="images\XSYU.mp4" />
     <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="main.html" />
