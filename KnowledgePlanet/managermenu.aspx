@@ -9,7 +9,7 @@
                     ForeColor="#CC9966" Width="337px"></asp:Label></td>
         </tr>
         <tr>
-            <td style="width: 30%; height: 400px; background-color: aliceblue">
+            <td style="width: 15%; height: 400px; background-color: aliceblue">
                 <asp:TreeView ID="TreeView1" runat="server" Font-Bold="True" Font-Names="仿宋_GB2312"
                     Font-Size="11pt">
                     <Nodes>
@@ -32,7 +32,7 @@
                 </asp:TreeView>
                 <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="11pt" ForeColor="#009900"
                     NavigateUrl="~/main.html" Target="_self">退出本系统</asp:HyperLink></td>
-            <td style="width: 99%; height: 400px">
+            <td style="width: 99%; height: 620px">
                 <iframe id="Iframe1" name="Iframe1" src="dispinfo.aspx?info=欢迎使用本系统" style="width: 99%;
                     height: 99%"></iframe>
             </td>

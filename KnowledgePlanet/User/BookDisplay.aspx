@@ -9,7 +9,7 @@
     <style type="text/css">
         .book-grid {
             display: grid;
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-gap: 10px;
         }
 
@@ -52,7 +52,7 @@
                 <ItemTemplate>
                     <div class="book-card">
                         <img src='<%# Eval("ImageUrl") %>' alt='<%# Eval("Title") %>' class="book-image"/>
-                        <div class="book-title"><a href='<%# Eval("DownloadUrl") %>'><%# Eval("Title") %></a></div>
+                        <div class="book-title"><a href='<%# Eval("DownloadUrl") %>' download><%# Eval("Title") %></a></div>
                         <div class="book-description"><%# Eval("Description") %></div>
                     </div>
                 </ItemTemplate>

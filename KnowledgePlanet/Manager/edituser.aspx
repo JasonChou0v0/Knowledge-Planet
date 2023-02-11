@@ -15,6 +15,7 @@
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="uid" DataSourceID="Database" ForeColor="#333333" GridLines="None">
                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                 <Columns>
+                    <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
                     <asp:BoundField DataField="uid" HeaderText="uid" ReadOnly="True" SortExpression="uid" />
                     <asp:BoundField DataField="uname" HeaderText="uname" SortExpression="uname" />
                     <asp:BoundField DataField="upwd" HeaderText="upwd" SortExpression="upwd" />

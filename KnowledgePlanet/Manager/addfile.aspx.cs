@@ -33,16 +33,16 @@ namespace KnowledgePlanet.Manager
                 if (fuThumbnail.HasFile)
                 {
                     string fileName = Path.GetFileName(fuThumbnail.FileName);
-                    string savePath = Server.MapPath("~/images/") + fileName;
+                    string savePath = Server.MapPath("../images/") + fileName;
                     fuThumbnail.SaveAs(savePath);
-                    ImageUrl = "~/images/" + fileName;
+                    ImageUrl = "../images/" + fileName;
                 }
                 if (fuFile.HasFile)
                 {
                     string fileName = Path.GetFileName(fuFile.FileName);
-                    string savePath = Server.MapPath("~/files/") + fileName;
+                    string savePath = Server.MapPath("../files/") + fileName;
                     fuFile.SaveAs(savePath);
-                    DownloadUrl = "~/files/" + fileName;
+                    DownloadUrl = "../files/" + fileName;
                 }
                 conn.Open();
                 string StrSQL = "insert into Books (Title, Description, ImageUrl, DownloadUrl) values (@Title, @Description, @ImageUrl, @DownloadUrl)";
