@@ -91,7 +91,7 @@
     <Content Include="style\css\jwxt.css" />
     <Content Include="style\css\table.css" />
     <Content Include="usermenu.aspx" />
-    <Content Include="User\downloadfile.aspx" />
+    <Content Include="User\BookDisplay.aspx" />
     <Content Include="User\updateuserpass.aspx" />
     <Content Include="User\uploadfile.aspx" />
     <Content Include="Web.config" />
@@ -197,12 +197,12 @@
     <Compile Include="usermenu.aspx.designer.cs">
       <DependentUpon>usermenu.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User\downloadfile.aspx.cs">
-      <DependentUpon>downloadfile.aspx</DependentUpon>
+    <Compile Include="User\BookDisplay.aspx.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User\downloadfile.aspx.designer.cs">
-      <DependentUpon>downloadfile.aspx</DependentUpon>
+    <Compile Include="User\BookDisplay.aspx.designer.cs">
+      <DependentUpon>BookDisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\updateuserpass.aspx.cs">
       <DependentUpon>updateuserpass.aspx</DependentUpon>
