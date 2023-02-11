@@ -3,11 +3,53 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <style type="text/css">
+        tl3 {
+            width: 100%;
+            height: 250px;
+            border: 0px solid red;
+            background-image: url(../images/轮播图.webp);
+            animation: 10s tl3_bt infinite;
+        }
+
+        @keyframes tl3_bt {
+            0% {
+                background-image: url(../images/轮播图.webp);
+                background-size: 1400px 300px;
+            }
+
+            20% {
+                background-image: url(../images/轮播图4.webp);
+                background-size: 1400px 300px;
+            }
+
+            50% {
+                background-image: url(../images/bg.jpg);
+                background-size: 1400px 300px;
+            }
+
+            75% {
+                background-image: url(../images/轮播图2.webp);
+                background-size: 1400px 300px;
+            }
+
+            100% {
+                background-image: url(../images/轮播图3.webp);
+                background-size: 1400px 300px;
+            }
+        }
+    </style>
 </head>
-<body>
+<body style="background-color:silver;color:blue">
     <br /><hr />
-    <a href="../Login.aspx">登录</a>
-    <a href="../Register.aspx">注册</a>
+    <h1 style="text-align:center"><a href="../Login.aspx">登录</a></h1>
+    <h1 style="text-align:center"><a href="../Register.aspx">注册</a></h1>
     <hr />
+    <!--轮播图的实现-->
+    <div class="tl3">
+        <div class="tl3_bg">
+        </div>
+    </div>
+    <!--轮播图结束-->
 </body>
 </html>
