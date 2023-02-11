@@ -72,12 +72,10 @@
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="dispinfo.aspx" />
-    <Content Include="HtmlPage.html" />
     <Content Include="images\top.png" />
     <Content Include="images\bottom.jpg" />
     <Content Include="images\XSYU.mp4" />
     <Content Include="Login.aspx" />
-    <Content Include="LoginPage.aspx" />
     <Content Include="main.html" />
     <Content Include="managermenu.aspx" />
     <Content Include="Manager\addfile.aspx" />
@@ -86,14 +84,13 @@
     <Content Include="Manager\editfile.aspx" />
     <Content Include="Manager\editmanager.aspx" />
     <Content Include="Manager\edituser.aspx" />
-    <Content Include="Manager\updatemanagerpass.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="style\css\bootstrap.min.css" />
     <Content Include="style\css\jwxt.css" />
+    <Content Include="style\css\link.css" />
     <Content Include="style\css\table.css" />
     <Content Include="usermenu.aspx" />
     <Content Include="User\BookDisplay.aspx" />
-    <Content Include="User\updateuserpass.aspx" />
     <Content Include="User\uploadfile.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -112,13 +109,6 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="LoginPage.aspx.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="LoginPage.aspx.designer.cs">
-      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="managermenu.aspx.cs">
       <DependentUpon>managermenu.aspx</DependentUpon>
@@ -169,13 +159,6 @@
     <Compile Include="Manager\edituser.aspx.designer.cs">
       <DependentUpon>edituser.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Manager\updatemanagerpass.aspx.cs">
-      <DependentUpon>updatemanagerpass.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Manager\updatemanagerpass.aspx.designer.cs">
-      <DependentUpon>updatemanagerpass.aspx</DependentUpon>
-    </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -204,13 +187,6 @@
     </Compile>
     <Compile Include="User\BookDisplay.aspx.designer.cs">
       <DependentUpon>BookDisplay.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="User\updateuserpass.aspx.cs">
-      <DependentUpon>updateuserpass.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="User\updateuserpass.aspx.designer.cs">
-      <DependentUpon>updateuserpass.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\uploadfile.aspx.cs">
       <DependentUpon>uploadfile.aspx</DependentUpon>

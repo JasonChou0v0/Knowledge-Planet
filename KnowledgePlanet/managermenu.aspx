@@ -28,9 +28,6 @@
                             <asp:TreeNode Text="添加管理员信息" Value="添加管理员信息" Target="Iframe1" NavigateUrl="~/Manager/addmanager.aspx"></asp:TreeNode>
                             <asp:TreeNode Text="编辑管理员信息" Value="编辑管理员信息" Target="Iframe1" NavigateUrl="~/Manager/editmanager.aspx"></asp:TreeNode>
                         </asp:TreeNode>
-                        <asp:TreeNode Text="我的密码管理" Value="我的密码管理" NavigateUrl="~/dispinfo.aspx?info=欢迎使用本系统" Target="Iframe1">
-                            <asp:TreeNode Text="更改我的密码" Value="更改我的密码" Target="Iframe1" NavigateUrl="~/Manager/updatemanagerpass.aspx"></asp:TreeNode>
-                        </asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
                 <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="11pt" ForeColor="#009900"

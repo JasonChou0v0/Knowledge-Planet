@@ -14,9 +14,6 @@
                             <asp:TreeNode Text="上传文件" Value="上传文件" NavigateUrl="~/User/uploadfile.aspx" Target="Iframe1"></asp:TreeNode>
                             <asp:TreeNode Text="下载文件" Value="下载文件" NavigateUrl="~/User/BookDisplay.aspx" Target="Iframe1"></asp:TreeNode>
                         </asp:TreeNode>
-                        <asp:TreeNode Text="信息管理" Value="信息管理" NavigateUrl="dispinfo.aspx?info=欢迎使用本系统" Target="Iframe1">
-                            <asp:TreeNode Text="更改我的密码" Value="更改我的密码" NavigateUrl="~/User/updateuserpass.aspx" Target="Iframe1"></asp:TreeNode>
-                        </asp:TreeNode>
                     </Nodes>
                 </asp:TreeView>
                 <br />
