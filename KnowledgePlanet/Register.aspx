@@ -52,14 +52,17 @@
 </head>
 <body>
   <div class="form-container">
-<form id="register" runat="server">
-<h2>Register</h2>
-<asp:TextBox ID="registerUsername" runat="server" placeholder="Username"></asp:TextBox>
-<asp:TextBox ID="registerPassword" runat="server" TextMode="Password" placeholder="Password"></asp:TextBox>
-<asp:Button ID="registerButton" runat="server" Text="Register" OnClick="RegisterButton_Click" />
-<asp:Label ID="registerErrorLabel" runat="server" CssClass="error"></asp:Label>
-<asp:HyperLink ID="loginLink" runat="server" NavigateUrl="../Login.aspx" Text="已有账号? 前往登录"></asp:HyperLink>
-</form>
+    <form id="register" runat="server">
+      <h2>Register</h2>
+      <asp:TextBox ID="txtUserName" runat="server" placeholder="用户名"></asp:TextBox>
+      <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" placeholder="密码"></asp:TextBox>
+      <asp:TextBox ID="TextBox3" runat="server" placeholder="验证码"></asp:TextBox>
+      <asp:Button ID="MyButton" runat="server" Text="Click Me" OnClick="MyButton_Click" style="display: none;"></asp:Button>
+      <asp:Label ID="MyLabel" runat="server" Text="Click Me" onclick="document.getElementById('MyButton').click();"></asp:Label>
+      <asp:Button ID="registerButton" runat="server" Text="Register" OnClick="RegisterButton_Click" />
+      <asp:Label ID="registerErrorLabel" runat="server" CssClass="error"></asp:Label>
+      <asp:HyperLink ID="loginLink" runat="server" NavigateUrl="../Login.aspx" Text="已有账号? 前往登录"></asp:HyperLink>
+    </form>
   </div>
 </body>
 </html>
