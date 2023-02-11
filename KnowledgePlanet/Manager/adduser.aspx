@@ -11,27 +11,27 @@
 <body>
     <form id="form2" runat="server">
     <div>
-        <table align="center" style="background-color: #99ccff">
+        <table align="center" style="background-color: #99ccff" width="100%" height="380px">
             <tr>
                 <td colspan="2" style="height: 44px; text-align: center;">
                     <strong><span style="font-size: 14pt; color: #ff3333; font-family: 仿宋_GB2312">添加新的用户</span></strong></td>
             </tr>
             <tr>
-                <td style="width: 110px; text-align: right;">
-                    <strong><span style="font-size: 10pt; color: #3300ff">账 号</span></strong></td>
+                <td style="width: 200px; text-align: right;"height="22px>
+                    <strong><span style="font-size: 10pt; color: #3300ff">账号</span></strong></td>
                 <td style="width: 236px">
                     <asp:TextBox ID="TextBox1" runat="server" Width="120px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td style="width: 110px; text-align: right;">
+                <td style="width: 200px; text-align: right;" height="22px">
                     <strong><span style="font-size: 10pt; color: #3300ff">密 码</span></strong></td>
                 <td style="width: 236px">
                     <asp:TextBox ID="TextBox2" runat="server" Width="120px"></asp:TextBox>&nbsp;
                 </td>
             </tr>
             <tr>
-                <td style="width: 110px; height: 22px; text-align: right;">
+                <td style="width: 200px; height: 22px; text-align: right;">
                     <strong><span style="font-size: 10pt; color: #3300ff">状 态</span></strong></td>
                 <td style="width: 236px; height: 22px;">
                     <asp:RadioButton ID="RadioButton1" runat="server" Font-Bold="True" Font-Size="10pt"
@@ -42,8 +42,8 @@
             </tr>
             <tr>
                 <td colspan="2" style="height: 37px">
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-                    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
                     <asp:Button ID="Button1" runat="server" Text="提交" OnClick="Button1_Click" />&nbsp;&nbsp; 
                     <input type="reset" runat="server" Text="重置" id="Reset1" /></td>
             </tr>
