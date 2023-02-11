@@ -75,6 +75,7 @@
     <Content Include="HtmlPage.html" />
     <Content Include="images\top.png" />
     <Content Include="images\bottom.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="LoginPage.aspx" />
     <Content Include="managermenu.aspx" />
     <Content Include="Manager\addfile.aspx" />
@@ -84,9 +85,11 @@
     <Content Include="Manager\editmanager.aspx" />
     <Content Include="Manager\edituser.aspx" />
     <Content Include="Manager\updatemanagerpass.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="RegisterPage.aspx" />
     <Content Include="style\css\bootstrap.min.css" />
     <Content Include="style\css\jwxt.css" />
+    <Content Include="style\css\table.css" />
     <Content Include="usermenu.aspx" />
     <Content Include="User\downloadfile.aspx" />
     <Content Include="User\updateuserpass.aspx" />
@@ -101,6 +104,13 @@
     </Compile>
     <Compile Include="dispinfo.aspx.designer.cs">
       <DependentUpon>dispinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.aspx.cs">
       <DependentUpon>LoginPage.aspx</DependentUpon>
@@ -173,6 +183,13 @@
       <DependentUpon>MasterPage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="RegisterPage.aspx.cs">
       <DependentUpon>RegisterPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

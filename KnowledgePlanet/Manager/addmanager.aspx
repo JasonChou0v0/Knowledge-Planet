@@ -19,14 +19,14 @@
                 <td style="width: 110px; text-align: right;">
                     <strong><span style="font-size: 10pt; color: #3300ff">账 号</span></strong></td>
                 <td style="width: 236px">
-                    <asp:TextBox ID="TextBox1" runat="server" Width="120px"></asp:TextBox>
+                    <asp:TextBox ID="txtUsername" runat="server" Width="120px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td style="width: 110px; text-align: right;">
                     <strong><span style="font-size: 10pt; color: #3300ff">密 码</span></strong></td>
                 <td style="width: 236px">
-                    <asp:TextBox ID="TextBox2" runat="server" Width="120px"></asp:TextBox>&nbsp;
+                    <asp:TextBox ID="txtPassword" runat="server" Width="120px"></asp:TextBox>&nbsp;
                 </td>
             </tr>
             <tr>
@@ -34,10 +34,10 @@
                     <strong><span style="font-size: 10pt; color: #3300ff">状 态</span></strong></td>
                 <td style="width: 236px; height: 22px;">
                     <asp:RadioButton ID="RadioButton1" runat="server" Font-Bold="True" Font-Size="10pt"
-                        GroupName="state" Text="正常" />
+                        GroupName="state" Text="正常" value="1"/>
                     &nbsp;
                     <asp:RadioButton ID="RadioButton2" runat="server" Font-Bold="True" Font-Size="10pt"
-                        GroupName="state" Text="暂停" /></td>
+                        GroupName="state" Text="禁止" value="0"/></td>
             </tr>
             <tr>
                 <td colspan="2" style="height: 37px">
