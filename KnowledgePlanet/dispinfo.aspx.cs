@@ -14,4 +14,4 @@ namespace KnowledgePlanet
             Label1.Text = Request.QueryString["info"];
         }
     }
-}
+}          
