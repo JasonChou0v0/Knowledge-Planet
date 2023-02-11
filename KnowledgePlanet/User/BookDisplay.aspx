@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>图书展示</title>
+    <title>资料展示</title>
     <style type="text/css">
         .book-grid {
             display: grid;
