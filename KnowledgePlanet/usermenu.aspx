@@ -21,7 +21,7 @@
                 </asp:TreeView>
                 <br />
                 <asp:HyperLink ID="HyperLink1" runat="server" Font-Bold="True" Font-Size="11pt" ForeColor="#009900"
-                    NavigateUrl="~/HtmlPage.html" Target="_self">退出本系统</asp:HyperLink></td>
+                    NavigateUrl="~/main.html" Target="_self">退出本系统</asp:HyperLink></td>
             <td style="width: 99%; height: 400px">
                <iframe name = "Iframe1" style="height:99%; width:99%" id = "Iframe1" src="dispinfo.aspx?info=欢迎使用本系统"></iframe>
 
