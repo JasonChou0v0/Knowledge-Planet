@@ -23,6 +23,7 @@
                             <asp:TreeNode NavigateUrl="~/Manager/addfile.aspx" Target="Iframe1" Text="添加文件信息" Value="添加文件信息">
                             </asp:TreeNode>
                             <asp:TreeNode NavigateUrl="~/Manager/editfile.aspx" Target="Iframe1" Text="编辑文件信息" Value="编辑文件信息"></asp:TreeNode>
+                            <asp:TreeNode NavigateUrl="~/Manager/review.aspx" Target="Iframe1" Text="审核文件" Value="审核文件"></asp:TreeNode>
                         </asp:TreeNode>
                         <asp:TreeNode Text="管理员信息管理" Value="管理员信息管理" NavigateUrl="~/dispinfo.aspx?info=欢迎使用本系统" Target="Iframe1">
                             <asp:TreeNode Text="添加管理员信息" Value="添加管理员信息" Target="Iframe1" NavigateUrl="~/Manager/addmanager.aspx"></asp:TreeNode>

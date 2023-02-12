@@ -54,6 +54,7 @@
                         <img src='<%# Eval("ImageUrl") %>' alt='<%# Eval("Title") %>' class="book-image"/>
                         <div class="book-title"><a href='<%# Eval("DownloadUrl") %>' download><%# Eval("Title") %></a></div>
                         <div class="book-description"><%# Eval("Description") %></div>
+                       
                     </div>
                 </ItemTemplate>
             </asp:Repeater>

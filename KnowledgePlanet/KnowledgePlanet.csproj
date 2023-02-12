@@ -90,6 +90,7 @@
     <Content Include="Manager\editfile.aspx" />
     <Content Include="Manager\editmanager.aspx" />
     <Content Include="Manager\edituser.aspx" />
+    <Content Include="Manager\review.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="style\css\bootstrap.min.css" />
     <Content Include="style\css\jwxt.css" />
@@ -164,6 +165,13 @@
     </Compile>
     <Compile Include="Manager\edituser.aspx.designer.cs">
       <DependentUpon>edituser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manager\review.aspx.cs">
+      <DependentUpon>review.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manager\review.aspx.designer.cs">
+      <DependentUpon>review.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

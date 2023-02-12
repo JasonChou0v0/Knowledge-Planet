@@ -35,7 +35,6 @@ public class CommDB
         }
         myconn.Close();
         return i;
-        // 下载于www.51aspx.com
     }
     //******************************************************************
     //执行SQL语句，返回是否成功执行。SQL语句最好是如下：
@@ -114,3 +113,29 @@ public class CommDB
         return num;         //返回生成的随机数
     }
 }
+
+//{
+
+//    读取数据：
+
+//    string sql = "SELECT * FROM mytable";
+//    int rowCount = Rownum(sql, "mytable", ref mysname);
+
+
+//    执行更新语句：
+
+//    string sql = "UPDATE mytable SET myfield = 'new value' WHERE id = 1";
+//    bool result = ExecuteNonQuery(sql);
+
+
+//    返回 DataSet 对象：
+
+//    string sql = "SELECT * FROM mytable";
+//    DataSet myds = ExecuteQuery(sql, "mytable");
+
+
+//    //注意：在代码中，使用 ConfigurationManager.AppSettings["myconnstring"]
+//    //获取数据库连接字符串，请确保在配置文件中已经正确设置了连接字符串。
+
+
+//}

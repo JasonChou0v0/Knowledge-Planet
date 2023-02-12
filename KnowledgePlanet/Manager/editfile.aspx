@@ -16,11 +16,12 @@
                 <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
                 <Columns>
                     <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-                    <asp:BoundField DataField="BookId" HeaderText="BookId" ReadOnly="True" SortExpression="BookId" InsertVisible="False" />
-                    <asp:BoundField DataField="Title" HeaderText="Title" SortExpression="Title" />
-                    <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" />
-                    <asp:BoundField DataField="ImageUrl" HeaderText="ImageUrl" SortExpression="ImageUrl" />
-                    <asp:BoundField DataField="DownloadUrl" HeaderText="DownloadUrl" SortExpression="DownloadUrl" />
+                    <asp:BoundField DataField="BookId" HeaderText="编号" ReadOnly="True" SortExpression="BookId" InsertVisible="False" />
+                    <asp:BoundField DataField="Title" HeaderText="标题" SortExpression="Title" />
+                    <asp:BoundField DataField="Description" HeaderText="描述" SortExpression="Description" />
+                    <asp:BoundField DataField="ImageUrl" HeaderText="缩略图" SortExpression="ImageUrl" />
+                    <asp:BoundField DataField="DownloadUrl" HeaderText="文件" SortExpression="DownloadUrl" />
+                    
                 </Columns>
                 <EditRowStyle BackColor="#999999" />
                 <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />

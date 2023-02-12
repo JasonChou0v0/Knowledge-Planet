@@ -14,7 +14,10 @@ namespace KnowledgePlanet.User
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["pass"] == null || (bool)(Session["pass"].ToString() != "guest"))
+            {
+                Response.Redirect("../main.html");
+            }
         }
 
        
@@ -46,12 +49,13 @@ namespace KnowledgePlanet.User
                     DownloadUrl = "../files/" + fileName;
                 }
                 conn.Open();
-                string StrSQL = "insert into Books (Title, Description, ImageUrl, DownloadUrl) values (@Title, @Description, @ImageUrl, @DownloadUrl)";
+                string StrSQL = "insert into Books (Title, Description, ImageUrl, DownloadUrl, State) values (@Title, @Description, @ImageUrl, @DownloadUrl, @State)";
                 SqlCommand com = new SqlCommand(StrSQL, conn);
                 com.Parameters.AddWithValue("@Title", txtTitle.Text);
                 com.Parameters.AddWithValue("@Description", txtDescription.Text);
                 com.Parameters.AddWithValue("@ImageUrl", ImageUrl);
                 com.Parameters.AddWithValue("@DownloadUrl", DownloadUrl);
+                com.Parameters.AddWithValue("@State", "0");
                 int result = com.ExecuteNonQuery();
                 if (result > 0)
                 {

@@ -11,7 +11,10 @@ namespace KnowledgePlanet
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Session["pass"] == null || (bool)(Session["pass"].ToString() != "admin"))
+            {
+                Response.Redirect("main.html");
+            }
         }
     }
 }

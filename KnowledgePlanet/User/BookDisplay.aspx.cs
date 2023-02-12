@@ -18,6 +18,12 @@ namespace KnowledgePlanet.User
             {
                 LoadBooks();
             }
+
+            if (Session["pass"] == null || (bool)(Session["pass"].ToString() != "guest"))
+            {
+                Response.Redirect("../main.html");
+            }
+
         }
         private void LoadBooks()
         {
@@ -26,7 +32,7 @@ namespace KnowledgePlanet.User
             using (SqlConnection connection = new SqlConnection(ConnStr))
             {
                 connection.Open();
-                using (SqlCommand command = new SqlCommand("SELECT BookId, Title, Description, ImageUrl, DownloadUrl FROM Books", connection))
+                using (SqlCommand command = new SqlCommand("SELECT BookId, Title, Description, ImageUrl, DownloadUrl FROM Books WHERE State = 1", connection))
                 //using (SqlCommand command = new SqlCommand("SELECT BookId, Title, Description, ImageUrl, TagName FROM Books b LEFT JOIN BookTags bt ON b.BookId = bt.BookId", connection))
                 {
                     SqlDataAdapter adapter = new SqlDataAdapter(command);
